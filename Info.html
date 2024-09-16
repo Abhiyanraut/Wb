@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+li, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100px;
+    color: #edf0f1;
+    text-decoration: none; 
+}
+
+a:hover{
+    transition: 0.3s;
+    color: #817977 ;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.Logo{
+    font-style: none;
+    font-weight: 150px;
+    color: #edf0f1;
+    margin-right: auto;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: 0088a9;
+
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: #817977;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: #645e5c;
+}
+
+.container{
+    width: 1150px;
+    height: 1000px;
+    margin: 200px auto;
+    padding: 2%;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+}
+    </style>
+    <head>
+        <title>My website</title>
+    </head>
+    <body>
+        <header>
+            <h2 ><a href="index.html" calss="Logo">Logo</a></h2>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="Info.html">Info</a></li>
+                    <li><a href="https://www.youtube.com/@Adharea">About</a></li>
+                    <li><a href="sign.html">Sign-up</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#"><button>Contact</button></a>
+        </header>
+        <div class="container">
+            <iframe src="https://youtube.com/shorts/d1HJBz3qxLw?si=Fogn2ihYt-einWZc" frameborder="0" height="500" width="500"></iframe>
+        </div>
+        <script src="script-for-index.js"></script>
+    </body>
+</html>
