@@ -11,6 +11,9 @@ const disableBackground = () => {
   localStorage.setItem('background', null)
 }
 
+if(background === "active") enableBackground()
+
 Bswitch.addEventListener('click', () => {
+  background = localStorage.getItem('background')
   backgrond !== "active" ? enablebackground() : disablebackground()
 }
