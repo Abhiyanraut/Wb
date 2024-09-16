@@ -101,16 +101,17 @@ button:hover{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
 }
 
-.B{
-    border: none;
-    border-radius: 30px;
-    height: 50px;
-    outline: none;
-    width: 50px;
-    cursor: pointer;
-    transition: .3s;
+/* Default background image */
+body {
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-#bg{
+/* Background image when 'background' class is added */
+body.background {
     background-image: url('IMG_0123.jpeg');
 }
+
