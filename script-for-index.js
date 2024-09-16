@@ -1,5 +1,5 @@
 let background = localStorage.getItem('background')
-const Bswitch = document.getElementById('B')
+const Bswitch = document.getElementById('bg')
 
 const enableBackground = () => {
   document.body,classList.add('background')
