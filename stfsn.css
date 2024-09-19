@@ -63,7 +63,7 @@ i{
 ::-webkit-input-placeholder{
     color: #fff;
 }
-.submit{
+.submit {
     border: none;
     border-radius: 30px;
     font-size: 15px;
@@ -75,18 +75,10 @@ i{
     transition: .3s;
     display: flex;
     color: #fff;
-
     align-items: center;
+    justify-content: center; /* Added this line */
 }
 
-.bottom{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: small;
-    color: #fff;
-    margin-top: 10px;
-}
 
 .subm{
     display: flex;
