@@ -75,6 +75,8 @@ i{
     transition: .3s;
     display: flex;
     color: #fff;
+
+    align-items: center;
 }
 
 .bottom{
