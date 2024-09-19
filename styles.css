@@ -113,5 +113,9 @@ body {
 /* Background image when 'background' class is added */
 body.background {
     background-image: url('IMG_0123.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
